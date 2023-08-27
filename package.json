@@ -1,0 +1,25 @@
+{
+  "name": "webhook-consumer",
+  "version": "0.1.0",
+  "description": "Webhook consumer implementation for generic X-Hub-Signatures. Lightweight, zero-dependency, WebCrypto.",
+  "main": "webhook-consumer.js",
+  "scripts": {
+    "test": "npx -p pta@1 -- pta 'tests/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savvi-legal/webhook-consumer.js.git"
+  },
+  "keywords": [
+    "webhooks",
+    "webhook",
+    "x-hub-signature",
+    "x-hub-signature-256"
+  ],
+  "author": "AJ ONeal <aj@therootcompany.com> (https://therootcompany.com/)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/savvi-legal/webhook-consumer.js/issues"
+  },
+  "homepage": "https://github.com/savvi-legal/webhook-consumer.js#readme"
+}
